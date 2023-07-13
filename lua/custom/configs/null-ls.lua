@@ -17,6 +17,11 @@ local sources = {
 
   -- cpp
   b.formatting.clang_format,
+
+  -- tailwind
+  b.formatting.rustywind,
+
+  b.code_actions.eslint,
 }
 
 null_ls.setup {
